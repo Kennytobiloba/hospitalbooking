@@ -33,7 +33,7 @@ const Navbar = () => {
 
       {/* Mobile Menu with CSS transitions */}
       <div
-        className={`absolute top-20 left-0 w-full bg-white shadow-lg lg:hidden z-40 overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? 'opacity-100 max-h-[1000px]' : 'opacity-0 max-h-0'}`}
+        className={`absolute top-24 left-0 w-full bg-white shadow-lg lg:hidden z-40 overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? 'opacity-100 max-h-[1000px]' : 'opacity-0 max-h-0'}`}
       >
         <div className='flex flex-col gap-2 px-4 py-2 text-black font-poppins'>
           <h4 className='cursor-pointer hover:text-blue'>Home</h4>
